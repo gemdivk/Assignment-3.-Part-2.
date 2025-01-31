@@ -46,4 +46,4 @@ describe("AITU_SE2324_KV", function () {
       expect(await token.getTransactionReceiver()).to.equal(addr1.address);
     });
   });
-})
+});
