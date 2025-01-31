@@ -122,7 +122,7 @@ npx hardhat test
 
 
 ### Test Coverage
-Initial Version (AITU_SE2324_KV)
+Initial Version (AITU_SE2324_KV):
 constructor: Mints initial supply ✅
 transfer(address _to, uint256 _value): Transfers tokens ✅ 
 transferFrom(address _from, address _to, uint256 _value): ✅ 
@@ -130,8 +130,9 @@ getLatestTransactionTimestamp(): ✅
 getTransactionSender(): ✅ 
 getTransactionReceiver(): ✅ 
 timestampToString(uint256 _timestamp): Internal function, no direct test needed
-Modified Version (AITU_SE2324_KV_Modified)
 
+
+Modified Version (AITU_SE2324_KV_Modified):
 constructor: Sets owner ✅ (tested)
 transfer(address _to, uint256 _value): ✅ (tested)
 transferFrom(address _from, address _to, uint256 _value): ✅ 
