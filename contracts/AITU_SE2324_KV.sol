@@ -96,3 +96,4 @@ contract AITU_SE2324_KV is ERC20 {
         }
         return string(bstr);
     }
+}
